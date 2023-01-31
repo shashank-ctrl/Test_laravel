@@ -1,0 +1,187 @@
+@media (max-width: 1366px){
+   .effect-marley img {
+    max-width: 350px;
+   }
+   .effect-marley{
+      width: 350px;
+      height: auto;
+   }
+}
+@media (min-width: 1200px) {
+   .container {
+      max-width: 1280px;
+   }
+}
+@media (max-width: 1199px) {
+   section.website-gallrey .container{
+      column-gap: 15px;
+   }
+   .effect-marley{
+      width: 280px;
+      column-gap: 25px;
+   }
+   .effect-marley img{
+      max-width: 280px;
+   }
+  /* .grid-box-text .category{
+      margin: 0;
+      top: 15px;
+      left: 25px;
+   }*/
+   .effect-marley h2, .effect-marley p{
+      font-size: 30px;
+   }
+   .slider-wrapper .slide-navigation__txt{
+      padding: 0 20px;
+   }
+}
+@media (max-width: 991px) {
+   .info {
+      padding: 30px 0;
+   }
+  .info .maincontent {
+    padding: 60px 0 0 0;
+   }
+   .info h3 {
+      font-size: 40px;
+      text-align: center;
+   }
+   .info .slider .sliderimg img {
+      height: 50vh;
+   }
+   .website-gallrey .container{
+      grid-template-columns: 1fr 1fr;
+      row-gap: 25px;
+    }
+   .effect-marley{
+      width: 330px;
+   }
+   .effect-marley img{
+      max-width: 330px;
+   }
+   .tabset > label{
+      margin: 0 10px;
+   }
+   .info h3{
+      font-size: 32px;
+   }
+   .slider-wrapper .slide-navigation__txt{
+      padding: 0 20px;
+   }
+   .back-to-home.see-more-btn {
+      margin-top: 30px;
+   }
+   .header .navbar-toggler .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+   }
+   .header-sticky .navbar-nav li, .header .navbar-nav li{
+      height: 60px;
+   }
+}
+
+@media (max-width: 768px) {
+   footer .container .row {
+      flex-direction: column-reverse;
+   }
+   .footerlogo {
+      margin-bottom: 15px;
+   }
+   .footerlogo, 
+   footer p {
+      justify-content: center;
+   }
+   .header .navbar-toggler {
+      border: none;
+      color: #1f1f1f;
+   }
+
+   .header .navbar-collapse {
+      position: fixed;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #11345a;
+   }
+   .header .navbar-nav li {
+      height: 50px;
+   }
+   .header .navbar-nav .nav-item .nav-link {
+      color: #fff;
+   }
+   .website-gallrey .container{
+      grid-template-columns: 1fr;
+   }
+   .effect-marley {
+    width: 430px;
+   }
+   .effect-marley img {
+    max-width: 430px;
+   }
+   .effect-marley h2, .effect-marley p{
+      font-size: 36px;
+   }
+   .tabssec .btn{
+      padding: 6px 18px;
+   }
+   .button--text-thick{
+      font-size: 14px;
+   }
+   .tabset > label {
+      margin: 20px 10px 0px 10px;
+   }
+   .tabset.container {
+    max-width: 540px;
+    margin: 10px auto;
+   }
+   .slider-wrapper .slider{
+      height: 40rem;
+      padding: 2.5rem 0;
+   }
+   .slider-wrapper{
+      max-width: 100%;
+      min-width: auto;
+   }
+}
+
+@media (max-width: 575px) {
+   #scroll {
+      right: 25px;
+   }
+   #scroll > .scrollArrow {
+      width: 35px;
+      height: 35px;
+   }
+   #scroll span {
+      border-width: 6px;
+      margin-left: -6px;
+      margin-top: -11px;
+   }
+   #scroll:hover .scrollText {
+      font-size: 15px;
+      left: -22px;
+   }
+   .info .slider .sliderimg img {
+      height: 35vh;
+   }
+   .effect-marley{
+      width: 100%;
+   }
+   .info h3{
+      font-size: 30px;
+   }
+ .effect-marley img {
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+.tabssec #filters.container{
+   flex-wrap: wrap;
+}
+.slider-wrapper .slide-navigation__txt{
+   padding: 0 15px;
+}
+.slider-wrapper .slide-navigation__txt li span{
+   font-size: 12px;
+}
+}
